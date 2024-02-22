@@ -1,72 +1,56 @@
 body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  }
+}
 
-  .section {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc;
-  }
-
-  .navbar {
+header {
     background-color: #333;
-    padding: 15px;
+    color: #bcbcc0;
+    padding: 20px;
     text-align: center;
-  }
+}
 
-  .search-container {
-    display: inline-block;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
     margin-right: 20px;
-  }
+}
 
-  .search-input {
-    padding: 8px;
-    width: 200px;
-  }
-
-  .search-button {
-    padding: 8px 15px;
-    background-color: #555;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-
-  .nav-links {
-    display: inline-block;
-  }
-
-  .nav-link {
-    margin-right: 15px;
+nav a {
     text-decoration: none;
-    color: #fff;
+    color: #f70606;
     font-weight: bold;
-  }
+}
 
-        header {
-            background-color: #3498db;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-        }
+footer {
+    background-color: #333;
+    color: #08e5a3;
+    text-align: center;
+    padding: 10px;
+}
 
-        section {
-            padding: 20px;
-            text-align: center;
-        }
+.hero {
+    background-image: url('HTML.png');
+    background-size: cover;
+    color: #3808e6;
+    text-align: center;
+    padding: 100px;
+}
 
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+.portfolio {
+    text-align: center;
+}
+
+.image-raccourcie {
+    width: 50%;
+}
+.project {
+    margin: 20px;
+    padding: 20px;
+    border : 10px;
+}
