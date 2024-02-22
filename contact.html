@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" link href="StyleContact.css">
+    <title>Contact</title>
+</head>
+<div class="nav-links">
+    <a href="index.html" class="nav-link">Equipe</a>
+    <a href="entreprise.html" class="nav-link">Entreprise</a>
+    <a href="realisations.html" class="nav-link">Réalisations</a>
+<body>
+   
+    <h1>Contactez-nous</h1>
+    <form action="process_contact.php" method="post">
+        <label for="civilite">Civilité :</label>
+        <select id="civilite" name="civilite" required>
+            <option value="M">M.</option>
+            <option value="Mme">Mme</option>
+            <option value="Autre">Autre</option>
+        </select>
+        <br>
+
+        <label for="nom_prenom">Nom et Prénom :</label>
+        <input type="text" id="nom_prenom" name="nom_prenom" required>
+        <br>
+
+        <label for="adresse">Adresse postale :</label>
+        <textarea id="adresse" name="adresse" rows="4" required></textarea>
+        <br>
+
+        <input type="checkbox" id="confidentialite" name="confidentialite" required>
+        <label for="confidentialite">J'accepte la politique de confidentialité de l'entreprise.</label>
+        <br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+
+</body>
+</html>

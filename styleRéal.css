@@ -1,0 +1,49 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .mosaique {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .realisation {
+            width: 250px;
+            margin: 15px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .realisation:hover {
+            transform: scale(1.05);
+        }
+
+        .realisation img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .realisation .description {
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 0 0 8px 8px;
+        }
